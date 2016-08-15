@@ -5,7 +5,7 @@ MAINTAINER DavidZhao <zhaohaibin@outlook.com>
 ENV REFRESHED_AT 2015-07-08 18:41
 
 RUN apt-get update \
-  && apt-get install -y mysql-server \
+  && apt-get install -y mysql-server-5.6 \
   && rm -rf /var/lib/mysql/mysql \
   && rm -rf /var/lib/apt/lits/*
 
